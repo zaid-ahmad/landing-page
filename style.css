@@ -126,7 +126,7 @@ nav img {
     height: 30px;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     border: none;
     font-size: 16px;
     background-color: #3882f6;
@@ -154,4 +154,51 @@ nav img {
     padding: 1% 0 0 20%;
     font-size: 24px;
     font-weight: 500;
+}
+
+#cta {
+    padding: 5% 0 5% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-card {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 800px;
+    padding: 2%;
+}
+
+.cta-content {
+    color: #f9faf8;
+}
+
+.cta-content h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cta-content p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.btn {
+    align-self: center;
+
+}
+
+.btn button {
+    width: 120px;
+    height: 40px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: 2px solid #f9faf8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
 }
