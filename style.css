@@ -133,3 +133,25 @@ nav img {
     color: #fff;
     cursor: pointer;
 }
+
+#reviews {
+    padding: 3% 0 3% 0;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.review {
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    font-size: 36px;
+    width: 800px;
+}
+
+.review-name {
+    padding: 1% 0 0 20%;
+    font-size: 24px;
+    font-weight: 500;
+}
