@@ -13,12 +13,12 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
-    color: #fff;
     height: 60px;
 }
 
-.header h2 {
-    flex: 2;
+header h2 {
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 .links ul {
@@ -29,6 +29,46 @@ header {
 
 li a {
     text-decoration: none;
-    color: #fff;
+    color: #e5e7eb;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 5% 0 5% 0;
+}
+
+nav img {
+    width: 500px;
+    height: auto;
+}
+
+.content {
+    width: 680px;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.content p {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 600px;
+}
+
+.content button {
+    margin-top: 2%;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    background-color: #3882f6;
+    color: #fff;
+}
