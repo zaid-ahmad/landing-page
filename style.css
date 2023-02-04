@@ -202,3 +202,21 @@ nav img {
     font-weight: 500;
     cursor: pointer;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 3% 0 3% 0;
+    text-align: center;
+    background-color: #1f2937;
+    font-size: 18px;
+}
+
+footer p {
+    color: #f9faf8;
+}
+
+footer a {
+    color: #f9faf8;
+}
