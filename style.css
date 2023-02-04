@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -39,38 +43,47 @@ nav {
     padding: 5% 0 5% 0;
 }
 
+/* General style for all buttons */
+button {
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #fff;
+    transition: .2s;
+}
+button:hover {
+    background-color: #0b58d3;
+}
+
 nav img {
     width: 500px;
     height: auto;
 }
 
-.content {
+.hero {
     width: 680px;
 }
 
-.content h1 {
+.hero h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
 }
 
-.content p {
+.hero p {
     font-size: 18px;
     color: #e5e7eb;
     width: 600px;
 }
 
-.content button {
+.hero button {
     margin-top: 2%;
     width: 110px;
-    height: 30px;
-    border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     border: none;
-    font-size: 16px;
-    background-color: #3882f6;
-    color: #fff;
 }
 
 #pricing {
@@ -98,6 +111,11 @@ nav img {
     border-radius: 5px;
     border: 2px solid  #3882f6;
     padding: 2%;
+    transition: .2s;
+}
+
+.card:hover {
+    background-color: #f2f2f2;
 }
 
 .card h3 {
@@ -123,15 +141,7 @@ nav img {
     align-self: center;
     margin-top: 5%;
     width: 250px;
-    height: 30px;
-    border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
     border: none;
-    font-size: 16px;
-    background-color: #3882f6;
-    color: #fff;
-    cursor: pointer;
 }
 
 #reviews {
@@ -192,15 +202,7 @@ nav img {
 
 .btn button {
     width: 120px;
-    height: 40px;
-    background-color: #3882f6;
-    color: #f9faf8;
-    border-radius: 5px;
     border: 2px solid #f9faf8;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
 }
 
 footer {
