@@ -72,3 +72,64 @@ nav img {
     background-color: #3882f6;
     color: #fff;
 }
+
+#pricing {
+    padding: 3% 0 5% 0;
+}
+
+#pricing h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.cards {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid  #3882f6;
+    padding: 2%;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 5%;
+}
+
+.card .question {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.card .feature {
+    padding: 5% 0 5% 0;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+}
+
+.card button {
+    align-self: center;
+    margin-top: 5%;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    background-color: #3882f6;
+    color: #fff;
+    cursor: pointer;
+}
